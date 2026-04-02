@@ -25,7 +25,7 @@ const Header = () => {
     <header
       className={`fixed top-[40px] left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-background/95 backdrop-blur-xl shadow-sm"
+          ? "liquid-glass shadow-md border-x-0 border-t-0"
           : "bg-transparent"
       }`}
     >
@@ -66,7 +66,7 @@ const Header = () => {
           initial={{ opacity: 0, y: -8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.2 }}
-          className="md:hidden bg-background/95 backdrop-blur-xl border-b border-border px-6 pb-6"
+          className="md:hidden liquid-glass border-b border-border/50 px-6 pb-6"
         >
           <nav className="flex flex-col gap-1">
             {navLinks.map((link) => (

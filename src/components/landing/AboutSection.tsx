@@ -28,7 +28,10 @@ const AboutSection = () => (
 
           <motion.div className="space-y-4" variants={fadeUp} custom={4}>
             {values.map(({ icon: Icon, title, desc }) => (
-              <div key={title} className="flex gap-4 p-5 rounded-2xl border border-border bg-card">
+              <div
+                key={title}
+                className="flex flex-col items-center gap-4 p-5 rounded-2xl border border-border bg-card text-center md:flex-row md:items-start md:text-left"
+              >
                 <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <Icon className="w-5 h-5 text-primary" />
                 </div>

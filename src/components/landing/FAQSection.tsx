@@ -40,10 +40,10 @@ const FAQSection = () => {
                 custom={i + 3}
               >
                 <button
-                  className="w-full flex items-center justify-between p-5 text-left group"
+                  className="w-full flex flex-col items-center text-center gap-2 p-5 md:flex-row md:items-center md:justify-between md:text-left group"
                   onClick={() => setOpen(open === i ? null : i)}
                 >
-                  <span className="font-display font-semibold text-sm md:text-base group-hover:text-primary transition-colors pr-4">
+                  <span className="font-display font-semibold text-sm md:text-base group-hover:text-primary transition-colors md:pr-4">
                     {item.q}
                   </span>
                   <ChevronDown

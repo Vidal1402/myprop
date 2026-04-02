@@ -32,7 +32,7 @@ const TestimonialSection = () => {
           </div>
 
           <motion.div className="max-w-2xl mx-auto" variants={fadeUp} custom={3}>
-            <div className="relative bg-background rounded-2xl border border-border p-8 md:p-10 min-h-[260px] flex flex-col justify-between">
+            <div className="relative bg-background rounded-2xl border border-border p-8 md:p-10 min-h-[260px] flex flex-col justify-between items-center md:items-stretch text-center md:text-left">
               <Quote className="w-8 h-8 text-primary/20 mb-4" />
               <AnimatePresence mode="wait">
                 <motion.div
@@ -45,12 +45,12 @@ const TestimonialSection = () => {
                   <p className="text-foreground text-lg leading-relaxed mb-6">
                     "{testimonials[current].text}"
                   </p>
-                  <div className="flex items-center justify-between">
+                  <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:justify-between w-full">
                     <div>
                       <p className="font-display font-bold text-sm">{testimonials[current].name}</p>
                       <p className="text-muted-foreground text-xs">{testimonials[current].role}</p>
                     </div>
-                    <div className="text-right">
+                    <div className="text-center md:text-right">
                       <p className="text-xs text-muted-foreground">Repasse</p>
                       <p className="font-display font-bold text-primary text-lg">{testimonials[current].payout}</p>
                     </div>

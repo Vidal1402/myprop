@@ -74,8 +74,8 @@ const highlights = [
 
 const PlanCard = ({ plan }: { plan: Plan }) => (
   <motion.div
-    className={`relative flex flex-col rounded-3xl overflow-hidden border border-border bg-background backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_80px_rgba(0,0,0,0.55)] ${
-      plan.featured ? "border-primary/40 ring-1 ring-primary/40" : ""
+    className={`relative flex flex-col rounded-3xl overflow-hidden liquid-glass transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_80px_rgba(0,0,0,0.55)] ${
+      plan.featured ? "ring-2 ring-primary/35" : ""
     }`}
     variants={fadeUp}
   >
@@ -93,7 +93,7 @@ const PlanCard = ({ plan }: { plan: Plan }) => (
         <span className="font-display text-4xl font-black tracking-tight">{plan.price}</span>
         <span className="text-sm line-through text-muted-foreground/70">{plan.oldPrice}</span>
       </div>
-      <div className="mt-3 inline-flex items-center gap-1 rounded-full border border-border/60 bg-card/80 px-3 py-1">
+      <div className="mt-3 inline-flex items-center gap-1 rounded-full liquid-glass-sm px-3 py-1">
         <span className="h-1.5 w-1.5 rounded-full bg-primary" />
         <span className="text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
           Taxa única, sem mensalidade

@@ -13,7 +13,7 @@ export const fadeUp = {
 
 export const SectionLabel = ({ children }: { children: React.ReactNode }) => (
   <motion.div
-    className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-border bg-card mb-6"
+    className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full liquid-glass-sm mb-6"
     variants={fadeUp}
     custom={0}
   >

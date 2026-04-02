@@ -23,7 +23,7 @@ const HeroSection = () => (
           className="w-full max-w-xl lg:max-w-2xl mx-auto text-center lg:text-left px-2"
         >
         <motion.div
-        className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-border bg-card mb-8 mx-auto lg:mx-0"
+        className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full liquid-glass-tint mb-8 mx-auto lg:mx-0"
           variants={fadeUp}
           custom={0}
         >

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ClipboardList, Target, Wallet, TrendingUp, ArrowDown } from "lucide-react";
+import { ClipboardList, Target, Wallet, TrendingUp } from "lucide-react";
 import { fadeUp, SectionLabel } from "./animations";
 
 const steps = [
@@ -31,7 +31,7 @@ const HowItWorksSection = () => (
             return (
               <motion.div
                 key={step.num}
-                className="group relative flex flex-col gap-4 p-6 md:p-7 rounded-2xl bg-background border border-border/70 hover:border-primary/40 hover:bg-background/90 transition-all duration-300"
+                className="group relative flex flex-col gap-4 p-6 md:p-7 rounded-2xl liquid-glass transition-all duration-300 hover:shadow-lg"
                 variants={fadeUp}
                 custom={i + 3}
               >
@@ -49,7 +49,7 @@ const HowItWorksSection = () => (
                   </span>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">{step.desc}</p>
-                <span className="inline-flex items-center w-fit px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold">
+                <span className="inline-flex items-center w-fit px-3 py-1 rounded-full liquid-glass-sm text-primary text-xs font-semibold">
                   {step.detail}
                 </span>
               </motion.div>

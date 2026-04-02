@@ -38,10 +38,10 @@ const ProfitSimulator = () => {
           >
             {/* Capital */}
             <div className="mb-8">
-              <label className="text-sm font-semibold text-foreground mb-3 block">
+              <label className="text-sm font-semibold text-foreground mb-3 block text-center md:text-left">
                 Capital da conta
               </label>
-              <div className="flex gap-2 flex-wrap">
+              <div className="flex gap-2 flex-wrap justify-center md:justify-start">
                 {capitalOptions.map((c, i) => (
                   <button
                     key={c}
@@ -60,8 +60,8 @@ const ProfitSimulator = () => {
 
             {/* Return */}
             <div className="mb-10">
-              <div className="flex items-center justify-between mb-3">
-                <label className="text-sm font-semibold text-foreground">
+              <div className="flex flex-col items-center gap-1 mb-3 md:flex-row md:items-center md:justify-between">
+                <label className="text-sm font-semibold text-foreground text-center md:text-left">
                   Retorno mensal
                 </label>
                 <span className="font-display text-lg font-bold text-primary">{returnPct}%</span>

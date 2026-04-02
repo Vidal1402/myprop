@@ -12,7 +12,7 @@ const SocialProofBar = () => (
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="rounded-3xl border border-border/60 bg-card/80 px-6 py-7 md:px-8 md:py-8"
+        className="rounded-3xl liquid-glass px-6 py-7 md:px-8 md:py-8"
       >
         <motion.p
           className="text-center text-[11px] md:text-xs text-foreground/50 mb-6 uppercase tracking-[0.25em] font-semibold"

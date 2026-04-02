@@ -10,7 +10,7 @@ const FinalCTASection = () => (
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-80px" }}
-        className="max-w-3xl mx-auto text-center"
+        className="max-w-3xl mx-auto text-center liquid-glass rounded-3xl px-8 py-12 md:px-12 md:py-14"
       >
         <motion.h2
           className="font-display text-3xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance"
