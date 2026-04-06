@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { AlertTriangle, TrendingDown, Brain, Clock } from "lucide-react";
+import { AlertTriangle, TrendingDown, Brain, Clock, Banknote } from "lucide-react";
 import { fadeUp, SectionLabel } from "./animations";
 
 const painPoints = [
@@ -105,6 +105,12 @@ const ProblemSection = () => (
           custom={8}
         >
           <div className="rounded-2xl liquid-glass-sm px-8 py-9 text-center md:px-10 md:py-10">
+            <div
+              className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/12 text-primary ring-1 ring-primary/20 md:mb-6 md:h-14 md:w-14"
+              aria-hidden
+            >
+              <Banknote className="h-6 w-6 md:h-7 md:w-7" strokeWidth={2} />
+            </div>
             <p className="text-sm font-medium text-muted-foreground md:text-base">
               A MyProp Trading existe para resolver exatamente isso.
             </p>

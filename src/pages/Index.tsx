@@ -4,7 +4,6 @@ import HeroSection from "@/components/landing/HeroSection";
 import SocialProofBar from "@/components/landing/SocialProofBar";
 import ProblemSection from "@/components/landing/ProblemSection";
 import HowItWorksSection from "@/components/landing/HowItWorksSection";
-import ProfitSimulator from "@/components/landing/ProfitSimulator";
 import PlansSection from "@/components/landing/PlansSection";
 import DifferentialSection from "@/components/landing/DifferentialSection";
 import TestimonialSection from "@/components/landing/TestimonialSection";
@@ -25,7 +24,6 @@ const Index = () => (
       <SocialProofBar />
       <ProblemSection />
       <HowItWorksSection />
-      <ProfitSimulator />
       <PlansSection />
       <DifferentialSection />
       <TestimonialSection />

@@ -3,10 +3,34 @@ import { ClipboardList, Target, Wallet, TrendingUp } from "lucide-react";
 import { fadeUp, SectionLabel } from "./animations";
 
 const steps = [
-  { num: "01", title: "Escolha seu plano", desc: "Selecione o desafio ideal para seu perfil e mercado de atuação.", detail: "A partir de $27.95", icon: ClipboardList },
-  { num: "02", title: "Complete a avaliação", desc: "Demonstre sua consistência operando dentro das regras do desafio. Sem prazo mínimo.", detail: "Meta clara e objetiva", icon: Target },
-  { num: "03", title: "Seja financiado", desc: "Aprovação em até 24h. Opere com capital de até R$250 mil sem arriscar patrimônio pessoal.", detail: "Até R$250k de capital", icon: Wallet },
-  { num: "04", title: "Receba até 90% dos lucros", desc: "Sem limite de ganhos. Escale conforme seus resultados crescem.", detail: "Até 90% de repasse", icon: TrendingUp },
+  {
+    num: "01",
+    title: "Escolha seu plano",
+    desc: "Selecione o desafio ideal para seu perfil e mercado de atuação.",
+    detail: "A partir de 497,90",
+    icon: ClipboardList,
+  },
+  {
+    num: "02",
+    title: "Complete a avaliação",
+    desc: "Demonstre sua consistência operando dentro das regras do desafio. Sem prazo mínimo.",
+    detail: "Meta clara e objetiva",
+    icon: Target,
+  },
+  {
+    num: "03",
+    title: "Seja financiado",
+    desc: "Aprovação em até 24h. Opere com capital de até R$ 20.000 sem arriscar patrimônio pessoal.",
+    detail: "Até R$ 20.000 de capital",
+    icon: Wallet,
+  },
+  {
+    num: "04",
+    title: "Receba 90% dos lucros",
+    desc: "Sem limite de ganhos. Escale conforme seus resultados crescem.",
+    detail: "100% de repasse nos 2 primeiros meses",
+    icon: TrendingUp,
+  },
 ];
 
 const HowItWorksSection = () => (
@@ -16,7 +40,7 @@ const HowItWorksSection = () => (
         <div className="text-center mb-16">
           <SectionLabel>Como funciona</SectionLabel>
           <motion.h2 className="font-display text-3xl md:text-5xl font-bold mb-5 text-balance" variants={fadeUp} custom={1}>
-            4 passos para operar <span className="text-primary">com capital real</span>
+            4 passos para operar <span className="text-primary">financiado</span>
           </motion.h2>
           <motion.p className="text-lg text-muted-foreground max-w-lg mx-auto leading-relaxed" variants={fadeUp} custom={2}>
             Um processo simples, transparente e sem pegadinhas.

@@ -100,11 +100,10 @@ const HeroSection = () => (
           className="relative flex h-full items-center justify-center lg:justify-end lg:min-h-[560px] mt-10 lg:mt-0"
         >
           <div className="relative w-full max-w-xl sm:max-w-2xl lg:max-w-none">
-            <div className="pointer-events-none absolute -inset-8 sm:-inset-10 bg-primary/30 blur-2xl rounded-full sm:rounded-[60px] opacity-70" />
             <img
               src="/hero-platform.png"
               alt="Plataforma completa de trading"
-              className="relative w-full h-full object-contain drop-shadow-[0_22px_60px_rgba(0,0,0,0.65)] scale-105 sm:scale-110 lg:scale-125 lg:translate-x-6"
+              className="relative w-full h-full object-contain scale-105 sm:scale-110 lg:scale-125 lg:translate-x-6"
             />
           </div>
         </motion.div>
