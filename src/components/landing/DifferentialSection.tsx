@@ -33,11 +33,11 @@ const DifferentialSection = () => (
             return (
               <motion.div
                 key={d.title}
-                className="group p-6 rounded-2xl border border-border bg-card hover:border-primary/20 hover:shadow-sm transition-all duration-300"
+                className="group p-6 rounded-3xl border border-border bg-card hover:border-primary/20 hover:shadow-sm transition-all duration-300"
                 variants={fadeUp}
                 custom={i + 3}
               >
-                <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
+                <div className="w-10 h-10 rounded-2xl bg-primary/10 flex items-center justify-center mb-4">
                   <Icon className="w-5 h-5 text-primary" />
                 </div>
                 <h3 className="font-display text-base font-bold mb-1.5">{d.title}</h3>

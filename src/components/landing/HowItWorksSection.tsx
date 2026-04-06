@@ -55,13 +55,13 @@ const HowItWorksSection = () => (
             return (
               <motion.div
                 key={step.num}
-                className="group relative flex flex-col gap-4 p-6 md:p-7 rounded-2xl liquid-glass transition-all duration-300 hover:shadow-lg"
+                className="group relative flex flex-col gap-4 p-6 md:p-7 rounded-3xl liquid-glass transition-all duration-300 hover:shadow-lg"
                 variants={fadeUp}
                 custom={i + 3}
               >
                 <div className="flex items-center justify-between gap-3">
                   <div className="flex items-center gap-3">
-                    <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center">
+                    <div className="w-11 h-11 rounded-2xl bg-primary/10 flex items-center justify-center">
                       <Icon className="w-5 h-5 text-primary" />
                     </div>
                     <h3 className="font-display text-lg md:text-xl font-bold">

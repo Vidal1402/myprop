@@ -33,7 +33,7 @@ const FAQSection = () => {
             {faqItems.map((item, i) => (
               <motion.div
                 key={i}
-                className={`rounded-xl border overflow-hidden transition-all duration-300 ${
+                className={`rounded-2xl border overflow-hidden transition-all duration-300 ${
                   open === i ? "border-primary/20 bg-card" : "border-border hover:border-foreground/10"
                 }`}
                 variants={fadeUp}

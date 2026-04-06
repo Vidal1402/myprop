@@ -62,13 +62,13 @@ const ForWhoDetailSection = () => (
                   return (
                     <motion.div
                       key={p.title}
-                      className="group relative w-full overflow-hidden rounded-2xl liquid-glass p-1 transition-all duration-300 hover:shadow-[0_12px_40px_rgba(129,71,248,0.18)]"
+                      className="group relative w-full overflow-hidden rounded-3xl liquid-glass p-1 transition-all duration-300 hover:shadow-[0_12px_40px_rgba(129,71,248,0.18)]"
                       variants={fadeUp}
                       custom={i + 3}
                     >
                       <div className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-[radial-gradient(ellipse_at_top_right,rgba(129,71,248,0.08),transparent_55%)]" />
                       <div className="relative flex gap-4 p-5 md:p-6">
-                        <div className="flex h-14 w-14 shrink-0 flex-col items-center justify-center rounded-2xl bg-primary/12 ring-1 ring-primary/25 shadow-inner">
+                        <div className="flex h-14 w-14 shrink-0 flex-col items-center justify-center rounded-3xl bg-primary/12 ring-1 ring-primary/25 shadow-inner">
                           <Icon className="h-6 w-6 text-primary" strokeWidth={2} />
                         </div>
                         <div className="min-w-0 flex-1 pt-0.5">

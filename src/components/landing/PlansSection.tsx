@@ -157,7 +157,7 @@ const PlanCardNoTest = ({ plan, index }: { plan: PlanNoTest; index: number }) =>
   const bullets = sharedBulletsNoTest(plan.drawdown, plan.reactivation);
   return (
     <motion.div
-      className="relative flex flex-col rounded-2xl border-2 border-primary/50 bg-zinc-950 text-zinc-100 p-6 md:p-7 shadow-[0_20px_60px_rgba(0,0,0,0.35)] transition-all duration-300 hover:-translate-y-1 hover:border-primary/70"
+      className="relative flex flex-col rounded-3xl border-2 border-primary/50 bg-zinc-950 text-zinc-100 p-6 md:p-7 shadow-[0_20px_60px_rgba(0,0,0,0.35)] transition-all duration-300 hover:-translate-y-1 hover:border-primary/70"
       variants={fadeUp}
       custom={index + 4}
     >
@@ -192,12 +192,12 @@ const PlanCardNoTest = ({ plan, index }: { plan: PlanNoTest; index: number }) =>
       </div>
 
       <div className="space-y-2.5 mt-auto">
-        <Button className="w-full rounded-xl font-bold h-11 text-xs uppercase tracking-wide bg-primary text-primary-foreground hover:bg-primary/90">
+        <Button className="w-full rounded-2xl font-bold h-11 text-xs uppercase tracking-wide bg-primary text-primary-foreground hover:bg-primary/90">
           QUERO O PLANO {plan.slug}
         </Button>
         <Button
           variant="outline"
-          className="w-full rounded-xl font-bold h-11 text-xs uppercase tracking-wide border-primary text-primary bg-transparent hover:bg-primary/10"
+          className="w-full rounded-2xl font-bold h-11 text-xs uppercase tracking-wide border-primary text-primary bg-transparent hover:bg-primary/10"
         >
           TAXA DE REATIVAÇÃO
         </Button>
@@ -217,7 +217,7 @@ const PlanCardNoTest = ({ plan, index }: { plan: PlanNoTest; index: number }) =>
 
 const PlanCardWithTest = ({ plan, index }: { plan: PlanWithTest; index: number }) => (
   <motion.div
-    className="relative flex flex-col rounded-2xl border-2 border-primary/50 bg-zinc-950 text-zinc-100 p-6 md:p-7 shadow-[0_20px_60px_rgba(0,0,0,0.35)] transition-all duration-300 hover:-translate-y-1 hover:border-primary/70"
+    className="relative flex flex-col rounded-3xl border-2 border-primary/50 bg-zinc-950 text-zinc-100 p-6 md:p-7 shadow-[0_20px_60px_rgba(0,0,0,0.35)] transition-all duration-300 hover:-translate-y-1 hover:border-primary/70"
     variants={fadeUp}
     custom={index + 4}
   >
@@ -246,7 +246,7 @@ const PlanCardWithTest = ({ plan, index }: { plan: PlanWithTest; index: number }
     </ul>
 
     <div className="mt-auto">
-      <Button className="w-full rounded-xl font-bold h-11 text-xs uppercase tracking-wide bg-primary text-primary-foreground hover:bg-primary/90">
+      <Button className="w-full rounded-2xl font-bold h-11 text-xs uppercase tracking-wide bg-primary text-primary-foreground hover:bg-primary/90">
         QUERO O PLANO {plan.slug}
       </Button>
     </div>

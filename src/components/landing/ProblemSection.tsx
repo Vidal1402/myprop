@@ -79,11 +79,11 @@ const ProblemSection = () => (
                 variants={fadeUp}
                 custom={i + 3}
                 whileHover={{ y: -4, transition: { type: "spring", stiffness: 400, damping: 25 } }}
-                className="group relative flex min-h-[168px] flex-col gap-4 overflow-hidden rounded-2xl liquid-glass p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg hover:shadow-primary/15 md:min-h-[176px] md:p-6"
+                className="group relative flex min-h-[168px] flex-col gap-4 overflow-hidden rounded-3xl liquid-glass p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg hover:shadow-primary/15 md:min-h-[176px] md:p-6"
               >
                 <div className="absolute inset-x-5 top-0 h-px bg-gradient-to-r from-transparent via-destructive/35 to-transparent opacity-90" />
                 <div className="flex items-start justify-between gap-2">
-                  <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-destructive/10 text-destructive ring-1 ring-destructive/15 transition-colors duration-300 group-hover:bg-destructive/15 md:h-11 md:w-11 md:rounded-[0.65rem]">
+                  <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-destructive/10 text-destructive ring-1 ring-destructive/15 transition-colors duration-300 group-hover:bg-destructive/15 md:h-11 md:w-11">
                     <Icon className="h-4 w-4 md:h-[1.1rem] md:w-[1.1rem]" strokeWidth={2} />
                   </div>
                   <span className="font-mono text-[10px] font-semibold tabular-nums text-muted-foreground/60">
@@ -104,9 +104,9 @@ const ProblemSection = () => (
           variants={fadeUp}
           custom={8}
         >
-          <div className="rounded-2xl liquid-glass-sm px-8 py-9 text-center md:px-10 md:py-10">
+          <div className="rounded-3xl liquid-glass-sm px-8 py-9 text-center md:px-10 md:py-10">
             <div
-              className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/12 text-primary ring-1 ring-primary/20 md:mb-6 md:h-14 md:w-14"
+              className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-3xl bg-primary/12 text-primary ring-1 ring-primary/20 md:mb-6 md:h-14 md:w-14"
               aria-hidden
             >
               <Banknote className="h-6 w-6 md:h-7 md:w-7" strokeWidth={2} />

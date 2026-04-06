@@ -32,7 +32,7 @@ const TestimonialSection = () => {
           </div>
 
           <motion.div className="max-w-2xl mx-auto" variants={fadeUp} custom={3}>
-            <div className="relative bg-background rounded-2xl border border-border p-8 md:p-10 min-h-[260px] flex flex-col justify-between items-center md:items-stretch text-center md:text-left">
+            <div className="relative bg-background rounded-3xl border border-border p-8 md:p-10 min-h-[260px] flex flex-col justify-between items-center md:items-stretch text-center md:text-left">
               <Quote className="w-8 h-8 text-primary/20 mb-4" />
               <AnimatePresence mode="wait">
                 <motion.div
