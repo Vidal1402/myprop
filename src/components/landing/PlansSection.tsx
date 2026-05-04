@@ -291,7 +291,7 @@ const PlansSection = () => (
           <div className="flex flex-col items-center gap-4 mb-10 md:mb-12">
             <FileSearch className="w-12 h-12 text-primary" strokeWidth={1.5} aria-hidden />
             <motion.h2
-              className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-balance uppercase tracking-tight text-white"
+              className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-balance uppercase tracking-tight text-[#7B61FF]"
               variants={fadeUp}
               custom={1}
             >
